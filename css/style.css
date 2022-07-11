@@ -1,0 +1,405 @@
+/* Styles */
+
+/*.......... Comienzo INDEX ..........*/
+
+/* Comienzo Header */
+
+.navegacion ul {
+    list-style-type: none;
+    line-height: 2rem;
+}
+
+
+.navegacion a {
+    color: #19afaf;
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+
+.navegacion a:hover {
+    color: #888585;
+    font-size: 1.5rem;
+    font-weight: bolder;
+    text-decoration: overline;
+}
+
+
+.bg-image {
+    background-image: url(../imagenes/origamimask.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+/* Fin Header */
+
+/* Comienzo Main */
+
+main p {
+    color: #19afaf;
+}
+
+
+.parrafoMain {
+    align-self: center;
+}
+
+
+.cursos {
+    align-self: center;
+    font-size: 1.3rem;
+    line-height: 45px;
+    width: 200px;
+    padding-left: 3rem;
+    padding-bottom: 5rem;
+}
+
+
+.cursos h2 {
+    font-size: 3rem;
+}
+
+
+.modalidad {
+    color: #888585;
+    font-size: 2.5rem;
+}
+
+
+.animacion {
+    animation-name: nuevaModalidad;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes nuevaModalidad {
+    0% {
+        color: #888585;
+    }
+
+    100% {
+        color: #ffff00ef;
+    }
+}
+
+.inscripcion {
+    text-decoration: none;
+    padding: 5px;
+    border: 2px solid;
+}
+
+/* Fin Main */
+
+/* Comienzo Footer */
+
+.footerIconInsta {
+    font-size: 2rem;
+    color: #cd1d92;
+}
+
+
+.footerIconFace {
+    font-size: 2rem;
+    color: #1635cc;
+}
+
+
+iframe {
+    border-radius: 10px;
+}
+
+
+i {
+    transition: 0.5s;
+}
+
+
+i:hover {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #888585;
+}
+
+/* Fin Footer */
+
+/*.......... Fin INDEX ..........*/
+
+/*.......... Comienzo CURSOS ..........*/
+
+/* Comienzo Main */
+
+.mainCursos {
+    background-image: linear-gradient(to bottom, #b1afaf, #e8e4e4, #f7efef);
+}
+
+
+.cursosDiv1 p {
+    color: #19afaf;
+    padding-left: 3rem;
+    padding-right: 3rem;
+}
+
+
+.parrafoCursos {
+    padding-top: 3rem;
+}
+
+
+.cursosDiv2 h2 {
+    padding-top: 2rem;
+    text-align: center;
+    font-size: 2rem;
+}
+
+
+.cursosDiv2 ul li {
+    font-size: larger;
+    text-align: center;
+    list-style-type: none;
+}
+
+
+.contactoCursos {
+    color: #000;
+    font-weight: bold;
+    padding-bottom: 2rem;
+}
+
+
+.contactoCursos a {
+    color: #19afaf;
+    transition: 0.5s;
+}
+
+
+.contactoCursos a:hover {
+    color: #888585;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+
+.cursosDiv3 {
+    padding-bottom: 2rem;
+}
+
+
+.video {
+    box-shadow: 5px 5px 5px;
+    border-radius: 2rem;
+    transition: height 1s;
+}
+
+
+.video:hover {
+    height: 350px;
+}
+
+
+.iframeCursos {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+
+.seccionCursos2 {
+    display: flex;
+    justify-content: center;
+}
+
+
+.cursosDiv4 h2 {
+    color: #ae7680;
+}
+
+
+.cursosDiv4 p {
+    color: #000;
+    font-weight: bolder;
+    font-size: large;
+    padding-left: 1rem;
+    text-align: left;
+}
+
+/* Fin Main */
+
+/*.......... Fin CURSOS ..........*/
+
+/*.......... Comienzo INSUMOS ..........*/
+
+/* Comienzo Main */
+
+.listaPrecios {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+tr:hover {
+    background-color: #77c1c1;
+    color: #fff;
+    font-size: larger;
+    font-weight: bolder;
+    transition-duration: 0.8s;
+
+}
+
+.listaPrecios__tabla {
+    border: 2px solid black;
+}
+
+/* Fin Main */
+
+/*.......... Fin INSUMOS ..........*/
+
+/*.......... Comienzo CONTACTO ..........*/
+
+.textarea {
+    margin: 10px;
+}
+
+/*.......... Fin CONTACTO ..........*/
+
+/*.......... Comienzo GALERIA ..........*/
+
+/* Comienzo Main */
+
+.card {
+    box-shadow: 10px 10px 10px;
+    border-radius: 2rem;
+    transition: transform 0.4s;
+    margin-left: 5rem;
+}
+
+.card:hover {
+    transform: translateY(-20px);
+}
+
+
+.card__header img {
+    width: 100%;
+    border-radius: 25px;
+    margin-bottom: 10px;
+}
+
+.card__description {
+    color: #000;
+    margin-bottom: 20px;
+}
+
+.card__link {
+    font-weight: bolder;
+    background-color: #888585;
+    color: #fff;
+    text-decoration: none;
+    width: 100%;
+    display: inline-block;
+    border-radius: 50px;
+    padding: 1rem;
+}
+
+/* Fin Main */
+
+/*.......... Fin GALERIA ..........*/
+
+
+/*............... Comienzo Media Queries ...............*/
+
+/* Comienzo Index */
+
+@media (max-width: 610px) {
+    .slogan {
+        display: none;
+    }
+}
+
+/* Fin Index */
+
+
+/* Comienzo Insumos*/
+
+@media (max-width: 320px) {
+    .listaPrecios {
+        margin: 10px
+    }
+}
+
+@media (max-width: 375px) {
+    .listaPrecios {
+        margin: 15px
+    }
+}
+
+
+@media (max-width: 425px) {
+    .listaPrecios {
+        margin: 15px
+    }
+}
+
+
+@media (max-width: 576px) {
+    .listaPrecios {
+        margin: 15px
+    }
+}
+
+/* Fin Insumos */
+
+/* Comienzo contacto */
+
+@media (max-width: 320px) {
+    .textarea {
+        margin: 5px;
+    }
+}
+
+
+@media (max-width: 375px) {
+    .textarea {
+        margin: 5px;
+    }
+}
+
+
+@media (max-width: 425px) {
+    .textarea {
+        margin: 5px;
+    }
+}
+
+/* Fin contacto */
+
+/* Comienzo Galeria */
+
+@media (max-width: 320px) {
+    div {
+        width: 100%;
+    }
+}
+
+
+@media (max-width: 375px) {
+    div {
+        width: 100%;
+    }
+}
+
+
+@media (max-width: 425px) {
+    div {
+        width: 100%;
+    }
+}
+
+
+@media (max-width: 576px) {
+    div {
+        width: 100%;
+    }
+}
+
+/* Fin Galeria */
+
+/*............... Fin Media Queries ...............*/
