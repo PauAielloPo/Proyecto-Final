@@ -1,0 +1,17 @@
+.listaPrecios {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+
+    &__tabla {
+        border: 2px solid black;
+    }
+}
+
+tr:hover {
+    background-color: #77c1c1;
+    color: #fff;
+    font-size: larger;
+    font-weight: bolder;
+    transition-duration: 0.5s;
+}

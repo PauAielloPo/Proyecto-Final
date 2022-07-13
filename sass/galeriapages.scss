@@ -1,0 +1,39 @@
+.cards a:hover {
+    color: #19afaf;
+}
+
+
+
+.card {
+    box-shadow: 10px 10px 10px;
+    border-radius: 2rem;
+    transition: transform 0.4s;
+    margin-left: 5rem;
+
+    &:hover {
+        transform: translateY(-20px);
+    }
+
+
+    &__header img {
+        width: 100%;
+        border-radius: 25px;
+        margin-bottom: 10px;
+    }
+
+    &__description {
+        color: #000;
+        margin-bottom: 20px;
+    }
+
+    &__link {
+        font-weight: bolder;
+        background-color: #888585;
+        color: #fff;
+        text-decoration: none;
+        width: 100%;
+        display: inline-block;
+        border-radius: 50px;
+        padding: 1rem;
+    }
+}

@@ -1,0 +1,130 @@
+@import 'header';
+
+@import 'footer';
+
+@import 'indexpages';
+
+@import 'cursospages';
+
+@import 'insumospages';
+
+@import 'contactopages';
+
+@import 'galeriapages';
+
+
+@media (max-width: 320px) {
+    .inscripcion {
+        font-size: medium;
+    }
+
+    .mainLista {
+        text-align: left;
+    }
+
+    .mainLista li {
+        font-size: medium;
+    }
+}
+
+
+
+
+@media (max-width: 610px) {
+    .slogan {
+        display: none;
+    }
+}
+
+
+
+// MEDIA QUERIES //
+
+
+
+
+// Comienzo Insumos //
+
+@media (max-width: 320px) {
+    .listaPrecios {
+        margin: 10px
+    }
+}
+
+@media (max-width: 375px) {
+    .listaPrecios {
+        margin: 15px
+    }
+}
+
+
+@media (max-width: 425px) {
+    .listaPrecios {
+        margin: 15px
+    }
+}
+
+
+@media (max-width: 576px) {
+    .listaPrecios {
+        margin: 15px
+    }
+}
+
+// Fin Insumos //
+
+// Comienzo contacto //
+
+@media (max-width: 320px) {
+    .textarea {
+        margin: 5px;
+    }
+}
+
+
+@media (max-width: 375px) {
+    .textarea {
+        margin: 5px;
+    }
+}
+
+
+@media (max-width: 425px) {
+    .textarea {
+        margin: 5px;
+    }
+}
+
+// Fin contacto //
+
+// Comienzo Galeria //
+
+@media (max-width: 320px) {
+    div {
+        width: 100%;
+    }
+}
+
+
+@media (max-width: 375px) {
+    div {
+        width: 100%;
+    }
+}
+
+
+@media (max-width: 425px) {
+    div {
+        width: 100%;
+    }
+}
+
+
+@media (max-width: 576px) {
+    div {
+        width: 100%;
+    }
+}
+
+
+// Fin Galeria //

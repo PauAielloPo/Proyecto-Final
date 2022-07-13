@@ -1,0 +1,42 @@
+.mainCursos {
+    background-image: linear-gradient(to bottom, #959292, #e8e4e4, #f7efef);
+}
+
+
+.contactoCursos {
+    color: #000;
+    font-weight: bold;
+    padding-bottom: 2rem;
+
+
+    &a {
+        color: #19afaf;
+        transition: 0.5s;
+    }
+
+
+    &a:hover {
+        color: #888585;
+        font-size: 1.5rem;
+        font-weight: light;
+    }
+}
+
+
+.video {
+    box-shadow: 5px 5px 5px;
+    border-radius: 2rem;
+    transition: height 1s;
+
+
+    &:hover {
+        height: 350px;
+    }
+}
+
+
+.iframeCursos {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}

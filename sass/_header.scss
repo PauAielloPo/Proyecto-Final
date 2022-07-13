@@ -1,0 +1,22 @@
+.navegacion {
+
+    & ul {
+        list-style-type: none;
+        line-height: 2rem;
+    }
+
+
+    & a {
+        color: #19afaf;
+        text-decoration: none;
+        transition: 0.5s;
+    }
+
+
+    & a:hover {
+        color: #888585;
+        font-size: 1.5rem;
+        font-weight: bolder;
+        text-decoration: overline;
+    }
+}
