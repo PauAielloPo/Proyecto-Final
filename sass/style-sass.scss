@@ -13,6 +13,12 @@
 @import 'galeriapages';
 
 
+
+
+// MEDIA QUERIES //
+
+// INDEX //
+
 @media (max-width: 320px) {
     .inscripcion {
         font-size: medium;
@@ -28,22 +34,15 @@
 }
 
 
-
-
 @media (max-width: 610px) {
     .slogan {
         display: none;
     }
 }
 
+// FIN INDEX //
 
-
-// MEDIA QUERIES //
-
-
-
-
-// Comienzo Insumos //
+// INSUMOS //
 
 @media (max-width: 320px) {
     .listaPrecios {
@@ -51,6 +50,7 @@
     }
 }
 
+
 @media (max-width: 375px) {
     .listaPrecios {
         margin: 15px
@@ -71,9 +71,9 @@
     }
 }
 
-// Fin Insumos //
+// FIN INSUMOS //
 
-// Comienzo contacto //
+// CONTACTO //
 
 @media (max-width: 320px) {
     .textarea {
@@ -95,9 +95,9 @@
     }
 }
 
-// Fin contacto //
+// FIN CONTACTO //
 
-// Comienzo Galeria //
+// GALERIA //
 
 @media (max-width: 320px) {
     div {
@@ -126,5 +126,6 @@
     }
 }
 
+// FIN GALERIA //
 
-// Fin Galeria //
+// FIN MEDIA QUERIES //
