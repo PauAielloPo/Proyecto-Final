@@ -5,8 +5,10 @@
 }
 
 
-main p {
-    color: #19afaf;
+main {
+    p {
+        color: #19afaf;
+    }
 }
 
 
@@ -16,7 +18,7 @@ main p {
     padding-left: 3rem;
     padding-bottom: 5rem;
 
-    & h2 {
+    h2 {
         font-size: 3rem;
     }
 }

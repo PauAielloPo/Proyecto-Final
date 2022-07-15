@@ -72,13 +72,13 @@ main p {
   background-image: linear-gradient(to bottom, #959292, #e8e4e4, #f7efef); }
 
 .contactoCursos {
-  color: #000;
+  color: #19afaf;
   font-weight: bold;
   padding-bottom: 2rem; }
-  .contactoCursosa {
+  .contactoCursos a {
     color: #19afaf;
     transition: 0.5s; }
-  .contactoCursosa:hover {
+  .contactoCursos a:hover {
     color: #888585;
     font-size: 1.5rem;
     font-weight: light; }
@@ -118,7 +118,7 @@ tr:hover {
 .card {
   box-shadow: 10px 10px 10px;
   border-radius: 2rem;
-  transition: transform 0.4s;
+  transition: transform 0.5s;
   margin-left: 5rem; }
   .card:hover {
     transform: translateY(-20px); }
