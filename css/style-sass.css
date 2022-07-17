@@ -10,7 +10,7 @@
 .navegacion a:hover {
   color: #888585;
   font-size: 1.5rem;
-  font-weight: bolder;
+  font-weight: bold;
   text-decoration: overline; }
 
 .footerIconInsta {
@@ -30,10 +30,11 @@ i {
 .iconRedes:hover {
   color: #19afaf;
   transition: 0.5s;
-  font-size: larger; }
+  font-size: larger;
+  font-weight: bold; }
 
 .bg-image {
-  background-image: url(./imagenes/origamimask.jpg);
+  background-image: url(../imagenes/origamimask.jpg);
   background-size: cover;
   background-position: center; }
 
@@ -106,8 +107,8 @@ tr:hover {
   background-color: #77c1c1;
   color: #fff;
   font-size: larger;
-  font-weight: bolder;
-  transition-duration: 0.5s; }
+  font-weight: bold;
+  transition: 0.5s; }
 
 .textarea {
   margin: 10px; }
@@ -130,7 +131,7 @@ tr:hover {
     color: #000;
     margin-bottom: 20px; }
   .card__link {
-    font-weight: bolder;
+    font-weight: bold;
     background-color: #888585;
     color: #fff;
     text-decoration: none;
@@ -138,6 +139,11 @@ tr:hover {
     display: inline-block;
     border-radius: 50px;
     padding: 1rem; }
+
+.info-base, .info-horarios, .info-telefono, .info-direccion {
+  color: #19afaf;
+  font-size: large;
+  font-style: italic; }
 
 @media (max-width: 320px) {
   .inscripcion {

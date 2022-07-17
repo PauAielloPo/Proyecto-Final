@@ -1,3 +1,5 @@
+@import 'variables';
+
 @import 'header';
 
 @import 'footer';
@@ -13,9 +15,33 @@
 @import 'galeriapages';
 
 
+// EXTENDS //
+
+.info-base {
+    color: $colorFuente;
+    font-size: large;
+    font-style: italic;
+}
+
+.info-horarios {
+    @extend .info-base;
+}
 
 
-// MEDIA QUERIES //
+.info-telefono {
+    @extend .info-base;
+}
+
+
+.info-direccion {
+    @extend .info-base;
+}
+
+// FIN EXTENDS //
+
+
+
+// MEDIA QUERIES // 
 
 // INDEX //
 

@@ -7,16 +7,16 @@
 
 
     a {
-        color: #19afaf;
+        color: $colorFuente;
         text-decoration: none;
-        transition: 0.5s;
+        transition: $transicion;
     }
 
 
     & a:hover {
         color: #888585;
         font-size: 1.5rem;
-        font-weight: bolder;
+        font-weight: bold;
         text-decoration: overline;
     }
 }

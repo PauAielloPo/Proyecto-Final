@@ -4,14 +4,14 @@
 
 
 .contactoCursos {
-    color: #19afaf;
+    color: $colorFuente;
     font-weight: bold;
     padding-bottom: 2rem;
 
 
     a {
-        color: #19afaf;
-        transition: 0.5s;
+        color: $colorFuente;
+        transition: $transicion;
     }
 
 

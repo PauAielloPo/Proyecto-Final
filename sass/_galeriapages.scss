@@ -1,5 +1,5 @@
 .cards a:hover {
-    color: #19afaf;
+    color: $colorFuente;
 }
 
 
@@ -7,7 +7,7 @@
 .card {
     box-shadow: 10px 10px 10px;
     border-radius: 2rem;
-    transition: transform 0.5s;
+    transition: transform $transicion;
     margin-left: 5rem;
 
     &:hover {
@@ -27,7 +27,7 @@
     }
 
     &__link {
-        font-weight: bolder;
+        font-weight: bold;
         background-color: #888585;
         color: #fff;
         text-decoration: none;

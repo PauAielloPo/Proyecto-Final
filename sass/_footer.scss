@@ -16,11 +16,13 @@ iframe {
 
 
 i {
-    transition: 0.5s;
+    transition: $transicion;
 }
 
+
 .iconRedes:hover {
-    color: #19afaf;
+    color: $colorFuente;
     transition: 0.5s;
     font-size: larger;
+    font-weight: bold;
 }
