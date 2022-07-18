@@ -165,7 +165,7 @@ tr:hover {
 
 .link-Origami-Basico {
   text-decoration: none;
-  margin: 10px;
+  margin-left: 10px;
   padding: 10px;
   border-radius: 10px;
   background-color: #6dceb4;
@@ -174,7 +174,7 @@ tr:hover {
 
 .link-Origami-Avanzado {
   text-decoration: none;
-  margin: 10px;
+  margin-left: 10px;
   padding: 10px;
   border-radius: 10px;
   background-color: #54b3d2;
@@ -183,7 +183,7 @@ tr:hover {
 
 .link-Paper-Crafts-Basico {
   text-decoration: none;
-  margin: 10px;
+  margin-left: 10px;
   padding: 10px;
   border-radius: 10px;
   background-color: #bc73c8;
@@ -192,7 +192,7 @@ tr:hover {
 
 .link-Paper-Crafts-3D {
   text-decoration: none;
-  margin: 10px;
+  margin-left: 10px;
   padding: 10px;
   border-radius: 10px;
   background-color: #d3679d;
@@ -201,7 +201,7 @@ tr:hover {
 
 .link-Paper-Crafts-Especiales {
   text-decoration: none;
-  margin: 10px;
+  margin-left: 10px;
   padding: 10px;
   border-radius: 10px;
   background-color: #e8ea74;

@@ -84,7 +84,7 @@ $inscripcionCurso :(Origami-Basico: #6dceb4,
 $colorCurso in $inscripcionCurso {
     .link-#{$nombreCurso} {
         text-decoration: none;
-        margin: 10px;
+        margin-left: 10px;
         padding: 10px;
         border-radius: 10px;
         background-color: $colorCurso;
