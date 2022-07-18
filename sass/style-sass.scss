@@ -15,7 +15,9 @@
 @import 'galeriapages';
 
 
+
 // EXTENDS //
+// aplicado en Footer //
 
 .info-base {
     color: $colorFuente;
@@ -39,6 +41,59 @@
 
 // FIN EXTENDS //
 
+
+// MIXINS //
+//aplicado en Galeria //
+
+@mixin tarjeta {
+    box-shadow: 10px 10px 10px;
+    color: gray;
+    border-radius: 2rem;
+    padding: 2rem;
+}
+
+.tarjeta-uno {
+    @include tarjeta;
+}
+
+
+.tarjeta-dos {
+    @include tarjeta;
+}
+
+
+.tarjeta-tres {
+    @include tarjeta;
+}
+
+// FIN MIXINS //
+
+
+// MAPS //
+// aplicado en Cursos //
+
+$inscripcionCurso :(Origami-Basico: #6dceb4,
+    Origami-Avanzado: #54b3d2,
+    Paper-Crafts-Basico: #bc73c8,
+    Paper-Crafts-3D:#d3679d,
+    Paper-Crafts-Especiales:#e8ea74,
+);
+
+
+@each $nombreCurso,
+$colorCurso in $inscripcionCurso {
+    .link-#{$nombreCurso} {
+        text-decoration: none;
+        margin: 10px;
+        padding: 10px;
+        border-radius: 10px;
+        background-color: $colorCurso;
+        color: #000;
+        font-size: small;
+    }
+}
+
+// FIN MAPS //
 
 
 // MEDIA QUERIES // 

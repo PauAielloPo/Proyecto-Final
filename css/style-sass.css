@@ -70,7 +70,7 @@ main p {
   border: 2px solid; }
 
 .mainCursos {
-  background-image: linear-gradient(to bottom, #959292, #e8e4e4, #f7efef); }
+  background-image: linear-gradient(to top, #959292, #e8e4e4, #f7efef); }
 
 .contactoCursos {
   color: #19afaf;
@@ -144,6 +144,69 @@ tr:hover {
   color: #19afaf;
   font-size: large;
   font-style: italic; }
+
+.tarjeta-uno {
+  box-shadow: 10px 10px 10px;
+  color: gray;
+  border-radius: 2rem;
+  padding: 2rem; }
+
+.tarjeta-dos {
+  box-shadow: 10px 10px 10px;
+  color: gray;
+  border-radius: 2rem;
+  padding: 2rem; }
+
+.tarjeta-tres {
+  box-shadow: 10px 10px 10px;
+  color: gray;
+  border-radius: 2rem;
+  padding: 2rem; }
+
+.link-Origami-Basico {
+  text-decoration: none;
+  margin: 10px;
+  padding: 10px;
+  border-radius: 10px;
+  background-color: #6dceb4;
+  color: #000;
+  font-size: small; }
+
+.link-Origami-Avanzado {
+  text-decoration: none;
+  margin: 10px;
+  padding: 10px;
+  border-radius: 10px;
+  background-color: #54b3d2;
+  color: #000;
+  font-size: small; }
+
+.link-Paper-Crafts-Basico {
+  text-decoration: none;
+  margin: 10px;
+  padding: 10px;
+  border-radius: 10px;
+  background-color: #bc73c8;
+  color: #000;
+  font-size: small; }
+
+.link-Paper-Crafts-3D {
+  text-decoration: none;
+  margin: 10px;
+  padding: 10px;
+  border-radius: 10px;
+  background-color: #d3679d;
+  color: #000;
+  font-size: small; }
+
+.link-Paper-Crafts-Especiales {
+  text-decoration: none;
+  margin: 10px;
+  padding: 10px;
+  border-radius: 10px;
+  background-color: #e8ea74;
+  color: #000;
+  font-size: small; }
 
 @media (max-width: 320px) {
   .inscripcion {
