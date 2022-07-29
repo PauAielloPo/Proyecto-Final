@@ -1,220 +1,167 @@
 .navegacion ul {
   list-style-type: none;
-  line-height: 2rem;
-}
+  line-height: 2rem; }
 
 .navegacion a {
   color: #19afaf;
   text-decoration: none;
-  transition: 0.5s;
-}
+  transition: 0.5s; }
 
 .navegacion a:hover {
   color: #888585;
   font-size: 1.5rem;
   font-weight: bold;
-  text-decoration: overline;
-}
+  text-decoration: overline; }
 
 .footerIconInsta {
   font-size: 2rem;
-  color: #cd1d92;
-}
+  color: #cd1d92; }
 
 .footerIconFace {
   font-size: 2rem;
-  color: #1635cc;
-}
+  color: #1635cc; }
 
 iframe {
-  border-radius: 10px;
-}
+  border-radius: 10px; }
 
 i {
-  transition: 0.5s;
-}
+  transition: 0.5s; }
 
 .iconRedes:hover {
   color: #19afaf;
   transition: 0.5s;
   font-size: larger;
-  font-weight: bold;
-}
+  font-weight: bold; }
 
 .bg-image {
   background-image: url(../imagenes/origamimask.jpg);
   background-size: cover;
-  background-position: center;
-}
+  background-position: center; }
 
 main p {
-  color: #19afaf;
-}
+  color: #19afaf; }
 
 .cursos {
   align-self: center;
   line-height: 45px;
   padding-left: 3rem;
-  padding-bottom: 5rem;
-}
-
-.cursos h2 {
-  font-size: 3rem;
-}
+  padding-bottom: 5rem; }
+  .cursos h2 {
+    font-size: 3rem; }
 
 .modalidad {
   color: #888585;
-  font-size: 2.5rem;
-}
+  font-size: 2.5rem; }
 
 .animacion {
   animation-name: nuevaModalidad;
   animation-duration: 1.1s;
-  animation-iteration-count: infinite;
-}
+  animation-iteration-count: infinite; }
 
 @keyframes nuevaModalidad {
   0% {
-    color: #eaff00ef;
-  }
-
+    color: #eaff00ef; }
   100% {
-    color: #888585;
-  }
-}
+    color: #888585; } }
 
 .inscripcion {
   text-decoration: none;
   padding: 5px;
-  border: 2px solid;
-}
+  border: 2px solid; }
 
 .mainCursos {
-  background-image: linear-gradient(to top, #959292, #e8e4e4, #f7efef);
-}
+  background-image: linear-gradient(to top, #959292, #e8e4e4, #f7efef); }
 
 .contactoCursos {
   color: #19afaf;
   font-weight: bold;
-  padding-bottom: 2rem;
-}
-
-.contactoCursos a {
-  color: #19afaf;
-  transition: 0.5s;
-}
-
-.contactoCursos a:hover {
-  color: #888585;
-  font-size: 1.5rem;
-  font-weight: light;
-}
+  padding-bottom: 2rem; }
+  .contactoCursos a {
+    color: #19afaf;
+    transition: 0.5s; }
+  .contactoCursos a:hover {
+    color: #888585;
+    font-size: 1.5rem;
+    font-weight: light; }
 
 .video {
   box-shadow: 5px 5px 5px;
   border-radius: 2rem;
-  transition: height 1s;
-}
-
-.video:hover {
-  height: 350px;
-}
+  transition: height 1s; }
+  .video:hover {
+    height: 350px; }
 
 .iframeCursos {
   display: flex;
   justify-content: center;
-  align-content: center;
-}
+  align-content: center; }
 
 .listaPrecios {
   display: flex;
   justify-content: center;
-  align-content: center;
-}
-
-.listaPrecios__tabla {
-  border: 2px solid black;
-}
+  align-content: center; }
+  .listaPrecios__tabla {
+    border: 2px solid #000; }
 
 tr:hover {
-  background-color: #77c1c1;
+  background-color: #b3acac;
   color: #fff;
   font-size: larger;
   font-weight: bold;
-  transition: 0.5s;
-}
+  transition: 0.5s; }
 
 .textarea {
-  margin: 10px;
-}
+  margin: 10px; }
 
 .cards a:hover {
-  color: #19afaf;
-}
+  color: #19afaf; }
 
 .card {
   box-shadow: 10px 10px 10px;
   border-radius: 2rem;
   transition: transform 0.5s;
-  margin-left: 5rem;
-}
+  margin-left: 5rem; }
+  .card:hover {
+    transform: translateY(-20px); }
+  .card__header img {
+    width: 100%;
+    border-radius: 25px;
+    margin-bottom: 10px; }
+  .card__description {
+    color: #000;
+    margin-bottom: 20px; }
+  .card__link {
+    font-weight: bold;
+    background-color: #888585;
+    color: #fff;
+    text-decoration: none;
+    width: 100%;
+    display: inline-block;
+    border-radius: 50px;
+    padding: 1rem; }
 
-.card:hover {
-  transform: translateY(-20px);
-}
-
-.card__header img {
-  width: 100%;
-  border-radius: 25px;
-  margin-bottom: 10px;
-}
-
-.card__description {
-  color: #000;
-  margin-bottom: 20px;
-}
-
-.card__link {
-  font-weight: bold;
-  background-color: #888585;
-  color: #fff;
-  text-decoration: none;
-  width: 100%;
-  display: inline-block;
-  border-radius: 50px;
-  padding: 1rem;
-}
-
-
-.info-base,
-.info-horarios,
-.info-telefono,
-.info-direccion {
+.info-base, .info-horarios, .info-telefono, .info-direccion {
   color: #19afaf;
-  font-size: large;
-  font-style: italic;
-}
+  font-size: medium;
+  font-style: italic; }
 
 .tarjeta-uno {
   box-shadow: 10px 10px 10px;
   color: gray;
   border-radius: 2rem;
-  padding: 2rem;
-}
+  padding: 2rem; }
 
 .tarjeta-dos {
   box-shadow: 10px 10px 10px;
   color: gray;
   border-radius: 2rem;
-  padding: 2rem;
-}
+  padding: 2rem; }
 
 .tarjeta-tres {
   box-shadow: 10px 10px 10px;
   color: gray;
   border-radius: 2rem;
-  padding: 2rem;
-}
+  padding: 2rem; }
 
 .link-Origami-Basico {
   text-decoration: none;
@@ -223,8 +170,7 @@ tr:hover {
   border-radius: 10px;
   background-color: #6dceb4;
   color: #000;
-  font-size: small;
-}
+  font-size: small; }
 
 .link-Origami-Avanzado {
   text-decoration: none;
@@ -233,8 +179,7 @@ tr:hover {
   border-radius: 10px;
   background-color: #54b3d2;
   color: #000;
-  font-size: small;
-}
+  font-size: small; }
 
 .link-Paper-Crafts-Basico {
   text-decoration: none;
@@ -243,8 +188,7 @@ tr:hover {
   border-radius: 10px;
   background-color: #bc73c8;
   color: #000;
-  font-size: small;
-}
+  font-size: small; }
 
 .link-Paper-Crafts-3D {
   text-decoration: none;
@@ -253,8 +197,7 @@ tr:hover {
   border-radius: 10px;
   background-color: #d3679d;
   color: #000;
-  font-size: small;
-}
+  font-size: small; }
 
 .link-Paper-Crafts-Especiales {
   text-decoration: none;
@@ -263,91 +206,60 @@ tr:hover {
   border-radius: 10px;
   background-color: #e8ea74;
   color: #000;
-  font-size: small;
-}
+  font-size: small; }
 
 @media (max-width: 320px) {
   .inscripcion {
-    font-size: medium;
-  }
-
+    font-size: medium; }
   .mainLista {
-    text-align: left;
-  }
-
+    text-align: left; }
   .mainLista li {
-    font-size: medium;
-  }
-}
+    font-size: medium; } }
 
 @media (max-width: 610px) {
   .slogan {
-    display: none;
-  }
-}
+    display: none; } }
 
 @media (max-width: 320px) {
   .listaPrecios {
-    margin: 10px;
-  }
-}
+    margin: 10px; } }
 
 @media (max-width: 375px) {
   .listaPrecios {
-    margin: 15px;
-  }
-}
+    margin: 15px; } }
 
 @media (max-width: 425px) {
   .listaPrecios {
-    margin: 15px;
-  }
-}
+    margin: 15px; } }
 
 @media (max-width: 576px) {
   .listaPrecios {
-    margin: 15px;
-  }
-}
+    margin: 15px; } }
 
 @media (max-width: 320px) {
   .textarea {
-    margin: 5px;
-  }
-}
+    margin: 5px; } }
 
 @media (max-width: 375px) {
   .textarea {
-    margin: 5px;
-  }
-}
+    margin: 5px; } }
 
 @media (max-width: 425px) {
   .textarea {
-    margin: 5px;
-  }
-}
+    margin: 5px; } }
 
 @media (max-width: 320px) {
   div {
-    width: 100%;
-  }
-}
+    width: 100%; } }
 
 @media (max-width: 375px) {
   div {
-    width: 100%;
-  }
-}
+    width: 100%; } }
 
 @media (max-width: 425px) {
   div {
-    width: 100%;
-  }
-}
+    width: 100%; } }
 
 @media (max-width: 576px) {
   div {
-    width: 100%;
-  }
-}
+    width: 100%; } }
