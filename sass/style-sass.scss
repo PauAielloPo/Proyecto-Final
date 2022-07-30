@@ -19,7 +19,7 @@
 
 
 // EXTENDS //
-// aplicado en Footer //
+// Aplicado en Footer //
 
 .info-base {
     color: $colorFuente;
@@ -45,7 +45,7 @@
 
 
 // MIXINS //
-//aplicado en Galeria //
+// Aplicado en Galeria //
 
 @mixin tarjeta {
     box-shadow: 10px 10px 10px;
@@ -72,7 +72,7 @@
 
 
 // MAPS //
-// aplicado en Cursos //
+// Aplicado en Cursos //
 
 $inscripcionCurso :(Origami-Basico: #66dada,
     Origami-Avanzado: #65e3c1,
@@ -119,8 +119,10 @@ $colorCurso in $inscripcionCurso {
     .mainLista li {
         font-size: small;
         padding: 0px;
+        list-style-type: disc;
     }
 }
+
 
 @media (max-width: 375px) {
     .inscripcion {
@@ -137,9 +139,17 @@ $colorCurso in $inscripcionCurso {
 
     .mainLista li {
         font-size: medium;
+        list-style-type: disc;
     }
 }
 
+
+@media (max-width: 390px) {
+    .mainLista li {
+        font-size: medium;
+        list-style-type: disc;
+    }
+}
 
 
 @media (max-width: 425px) {
@@ -189,11 +199,20 @@ $colorCurso in $inscripcionCurso {
     }
 }
 
+
 @media (max-width: 425px) {
     .inscribite {
         display: none;
     }
 }
+
+
+@media (max-width: 719px) {
+    .inscribite {
+        display: none;
+    }
+}
+
 
 // FIN CURSOS //
 

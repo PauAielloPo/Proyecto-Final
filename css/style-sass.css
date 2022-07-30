@@ -227,7 +227,8 @@ tr:hover {
     padding: 0px; }
   .mainLista li {
     font-size: small;
-    padding: 0px; } }
+    padding: 0px;
+    list-style-type: disc; } }
 
 @media (max-width: 375px) {
   .inscripcion {
@@ -237,7 +238,13 @@ tr:hover {
   .mainLista {
     text-align: left; }
   .mainLista li {
-    font-size: medium; } }
+    font-size: medium;
+    list-style-type: disc; } }
+
+@media (max-width: 390px) {
+  .mainLista li {
+    font-size: medium;
+    list-style-type: disc; } }
 
 @media (max-width: 425px) {
   .inscripcion {
@@ -264,6 +271,10 @@ tr:hover {
     display: none; } }
 
 @media (max-width: 425px) {
+  .inscribite {
+    display: none; } }
+
+@media (max-width: 719px) {
   .inscribite {
     display: none; } }
 
