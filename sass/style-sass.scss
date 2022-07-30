@@ -18,9 +18,6 @@
 
 
 
-
-
-
 // EXTENDS //
 // aplicado en Footer //
 
@@ -126,7 +123,6 @@ $colorCurso in $inscripcionCurso {
 }
 
 @media (max-width: 375px) {
-
     .inscripcion {
         font-size: medium;
     }
@@ -147,8 +143,6 @@ $colorCurso in $inscripcionCurso {
 
 
 @media (max-width: 425px) {
-
-
     .inscripcion {
         font-size: large;
     }
@@ -176,9 +170,7 @@ $colorCurso in $inscripcionCurso {
 // FIN INDEX //
 
 
-
 // CURSOS //
-
 
 @media (max-width: 320px) {
     .inscribite {
@@ -204,8 +196,6 @@ $colorCurso in $inscripcionCurso {
 }
 
 // FIN CURSOS //
-
-
 
 // INSUMOS //
 
@@ -270,7 +260,6 @@ $colorCurso in $inscripcionCurso {
     div {
         width: 100%;
     }
-
 }
 
 
