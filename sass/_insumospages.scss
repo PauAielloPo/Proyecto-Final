@@ -9,9 +9,13 @@
 }
 
 tr:hover {
-    background-color: rgb(179, 172, 172);
+    background-color: #b3acac;
     color: #fff;
     font-size: larger;
     font-weight: bold;
     transition: $transicion;
+}
+
+.textoInsumos {
+    color: $colorFuente;
 }

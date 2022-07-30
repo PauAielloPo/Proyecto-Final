@@ -33,13 +33,16 @@ i {
   font-size: larger;
   font-weight: bold; }
 
+.redesFooter {
+  color: #19afaf; }
+
 .bg-image {
   background-image: url(../imagenes/origamimask.jpg);
   background-size: cover;
   background-position: center; }
 
 main p {
-  color: #19afaf; }
+  color: #97e7e0; }
 
 .cursos {
   align-self: center;
@@ -48,6 +51,9 @@ main p {
   padding-bottom: 5rem; }
   .cursos h2 {
     font-size: 3rem; }
+
+.mainLista li {
+  list-style-type: none; }
 
 .modalidad {
   color: #888585;
@@ -70,11 +76,11 @@ main p {
   border: 2px solid; }
 
 .mainCursos {
-  background-image: linear-gradient(to top, #959292, #e8e4e4, #f7efef); }
+  background-image: linear-gradient(to top, #9cd2cc, #d0f7f4, #f7efef); }
 
 .contactoCursos {
   color: #19afaf;
-  font-weight: bold;
+  font-weight: lighter;
   padding-bottom: 2rem; }
   .contactoCursos a {
     color: #19afaf;
@@ -109,6 +115,9 @@ tr:hover {
   font-size: larger;
   font-weight: bold;
   transition: 0.5s; }
+
+.textoInsumos {
+  color: #19afaf; }
 
 .textarea {
   margin: 10px; }
@@ -168,7 +177,7 @@ tr:hover {
   margin-left: 10px;
   padding: 10px;
   border-radius: 10px;
-  background-color: #6dceb4;
+  background-color: #66dada;
   color: #000;
   font-size: small; }
 
@@ -177,7 +186,7 @@ tr:hover {
   margin-left: 10px;
   padding: 10px;
   border-radius: 10px;
-  background-color: #54b3d2;
+  background-color: #65e3c1;
   color: #000;
   font-size: small; }
 
@@ -186,7 +195,7 @@ tr:hover {
   margin-left: 10px;
   padding: 10px;
   border-radius: 10px;
-  background-color: #bc73c8;
+  background-color: #50e789;
   color: #000;
   font-size: small; }
 
@@ -195,7 +204,7 @@ tr:hover {
   margin-left: 10px;
   padding: 10px;
   border-radius: 10px;
-  background-color: #d3679d;
+  background-color: #9fd44e;
   color: #000;
   font-size: small; }
 
@@ -204,20 +213,58 @@ tr:hover {
   margin-left: 10px;
   padding: 10px;
   border-radius: 10px;
-  background-color: #e8ea74;
+  background-color: #d5ed5c;
   color: #000;
   font-size: small; }
 
 @media (max-width: 320px) {
   .inscripcion {
     font-size: medium; }
+  .parrafoMain {
+    display: none; }
+  .mainLista {
+    text-align: left;
+    padding: 0px; }
+  .mainLista li {
+    font-size: small;
+    padding: 0px; } }
+
+@media (max-width: 375px) {
+  .inscripcion {
+    font-size: medium; }
+  .parrafoMain {
+    display: none; }
   .mainLista {
     text-align: left; }
   .mainLista li {
     font-size: medium; } }
 
+@media (max-width: 425px) {
+  .inscripcion {
+    font-size: large; }
+  .parrafoMain {
+    display: none; }
+  .mainLista {
+    text-align: left; }
+  .mainLista li {
+    font-size: large; } }
+
 @media (max-width: 610px) {
   .slogan {
+    display: none; } }
+
+@media (max-width: 320px) {
+  .inscribite {
+    display: none; }
+  .parrafoCursos {
+    display: none; } }
+
+@media (max-width: 375px) {
+  .inscribite {
+    display: none; } }
+
+@media (max-width: 425px) {
+  .inscribite {
     display: none; } }
 
 @media (max-width: 320px) {

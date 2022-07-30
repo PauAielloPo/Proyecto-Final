@@ -7,7 +7,7 @@
 
 main {
     p {
-        color: $colorFuente;
+        color: #97e7e0;
     }
 }
 
@@ -21,6 +21,15 @@ main {
     h2 {
         font-size: 3rem;
     }
+}
+
+
+.mainLista {
+    li {
+        list-style-type: none;
+    }
+
+
 }
 
 

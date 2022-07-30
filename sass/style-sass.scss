@@ -77,11 +77,11 @@
 // MAPS //
 // aplicado en Cursos //
 
-$inscripcionCurso :(Origami-Basico: #6dceb4,
-    Origami-Avanzado: #54b3d2,
-    Paper-Crafts-Basico: #bc73c8,
-    Paper-Crafts-3D:#d3679d,
-    Paper-Crafts-Especiales:#e8ea74,
+$inscripcionCurso :(Origami-Basico: #66dada,
+    Origami-Avanzado: #65e3c1,
+    Paper-Crafts-Basico: #50e789,
+    Paper-Crafts-3D:#9fd44e,
+    Paper-Crafts-Especiales:#d5ed5c,
 );
 
 
@@ -110,12 +110,59 @@ $colorCurso in $inscripcionCurso {
         font-size: medium;
     }
 
+    .parrafoMain {
+        display: none;
+    }
+
+    .mainLista {
+        text-align: left;
+        padding: 0px;
+    }
+
+    .mainLista li {
+        font-size: small;
+        padding: 0px;
+    }
+}
+
+@media (max-width: 375px) {
+
+    .inscripcion {
+        font-size: medium;
+    }
+
+    .parrafoMain {
+        display: none;
+    }
+
     .mainLista {
         text-align: left;
     }
 
     .mainLista li {
         font-size: medium;
+    }
+}
+
+
+
+@media (max-width: 425px) {
+
+
+    .inscripcion {
+        font-size: large;
+    }
+
+    .parrafoMain {
+        display: none;
+    }
+
+    .mainLista {
+        text-align: left;
+    }
+
+    .mainLista li {
+        font-size: large;
     }
 }
 
@@ -127,6 +174,38 @@ $colorCurso in $inscripcionCurso {
 }
 
 // FIN INDEX //
+
+
+
+// CURSOS //
+
+
+@media (max-width: 320px) {
+    .inscribite {
+        display: none;
+    }
+
+    .parrafoCursos {
+        display: none;
+    }
+}
+
+
+@media (max-width: 375px) {
+    .inscribite {
+        display: none;
+    }
+}
+
+@media (max-width: 425px) {
+    .inscribite {
+        display: none;
+    }
+}
+
+// FIN CURSOS //
+
+
 
 // INSUMOS //
 
@@ -159,6 +238,7 @@ $colorCurso in $inscripcionCurso {
 
 // FIN INSUMOS //
 
+
 // CONTACTO //
 
 @media (max-width: 320px) {
@@ -183,12 +263,14 @@ $colorCurso in $inscripcionCurso {
 
 // FIN CONTACTO //
 
+
 // GALERIA //
 
 @media (max-width: 320px) {
     div {
         width: 100%;
     }
+
 }
 
 
